@@ -13,7 +13,7 @@ import { blockRouterMetaData as blockRouterMetaDataJsIntervalsDFata } from './In
 import { blockRouterMetaData as blockRouterMetaDataJsDateAndTime } from './DateAndTime/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJsAnimationsJS } from './AnimationsJS/router-data';
 import { blockRouterMetaData as blockRouterMetaDataJsHitTheMole } from './HitTheMole/router-data';
-
+import { blockRouterMetaData as blockRouterMetaDataJsOOP } from './OOP/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -29,5 +29,6 @@ export const blockRouterMetaData = [
   blockRouterMetaDataJsDateAndTime,
   blockRouterMetaDataJsAnimationsJS,
   blockRouterMetaDataJsHitTheMole,
+  blockRouterMetaDataJsOOP,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
